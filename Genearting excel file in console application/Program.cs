@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO.Compression;
 using Microsoft.Office.Interop;
 
 namespace Genearting_excel_file_in_console_application
@@ -60,9 +61,23 @@ namespace Genearting_excel_file_in_console_application
                 GC.Collect();
             }
         }
+
+        public static void GenerateZipFile()
+        {
+            // Provide the file path 
+            string fileToZip = @"D:/Test";
+            string locationToSaveZipWithZipFileName = @"D:/Test.Zip";
+
+
+            //Call the ZipFile.CreateFromDirectory
+            ZipFile.CreateFromDirectory(fileToZip, locationToSaveZipWithZipFileName);
+            Console.WriteLine("Zip file created.");
+        }
         static void Main(string[] args)
         {
-            GenerateExcel();
+            //GenerateExcel();
+            GenerateZipFile();
+            Console.ReadKey();
         }
     }
 }
