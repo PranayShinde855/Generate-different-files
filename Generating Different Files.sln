@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genearting excel file in console application", "Genearting excel file in console application\Genearting excel file in console application.csproj", "{F52A890B-BD87-4456-A1FB-70E596C4A747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Genearting excel file in console application", "Genearting excel file in console application\Genearting excel file in console application.csproj", "{F52A890B-BD87-4456-A1FB-70E596C4A747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesToBytesETC", "FilesToBytesETC\FilesToBytesETC.csproj", "{5D52255A-E2FC-4D88-ADEE-55DE96191782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F52A890B-BD87-4456-A1FB-70E596C4A747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52A890B-BD87-4456-A1FB-70E596C4A747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F52A890B-BD87-4456-A1FB-70E596C4A747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D52255A-E2FC-4D88-ADEE-55DE96191782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D52255A-E2FC-4D88-ADEE-55DE96191782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D52255A-E2FC-4D88-ADEE-55DE96191782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D52255A-E2FC-4D88-ADEE-55DE96191782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
